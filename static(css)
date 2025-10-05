@@ -1,0 +1,40 @@
+body {
+    background: #6f6c6c;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container {
+    background: rgb(241, 239, 239);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    text-align: center;
+}
